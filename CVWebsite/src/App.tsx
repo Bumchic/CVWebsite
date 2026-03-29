@@ -2,7 +2,7 @@
 import 'react-bootstrap'
 import './App.css'
 import { useEffect, useState } from 'react'
-import { motion, easeIn, easeOut, AnimatePresence} from 'motion/react'
+import { motion, easeIn, easeOut, AnimatePresence } from 'motion/react'
 
 
 
@@ -38,18 +38,22 @@ function App() {
           <div id='body' className='container-fluid d-flex justify-content-center'>
             <div className='row'>
               <h1 className='d-flex justify-content-center'>About me</h1>
-              <ul className="list-group">
-                <li className="list-group-item"><span className='h5'>University: </span>HCMC University of Technology</li>
-                <li className="list-group-item"><span className='h5'>Major: </span>Software Engineering</li>
-                <li className="list-group-item"><span className='h5'>Experienced language: </span>C#, Javascript, python, C, ReactJS, PHP, HTML, NodeJS, Java</li>
-                <li className="list-group-item"><span className='h5'>Technical Skill: </span>Leadership, teamwork, researching, programming, project planning, english fluency</li>
-              </ul>
             </div>
+
           </div>
-          
+          <div className='container'>
+            <ul className="list-group">
+              <li className="list-group-item"><span className='h5'>University: </span>HCMC University of Technology</li>
+              <li className="list-group-item"><span className='h5'>Major: </span>Software Engineering</li>
+              <li className="list-group-item"><span className='h5'>Experienced language: </span>C#, Javascript, python, C, ReactJS, PHP, HTML, NodeJS, Java</li>
+              <li className="list-group-item"><span className='h5'>Technical Skill: </span>Leadership, teamwork, researching, programming, project planning, english fluency</li>
+            </ul>
+          </div>
+
+
           <div className='container d-flex flex-column'>
             <h1 className='d-flex justify-content-center h1'>My experience</h1>
-            <h3 className='h3'>Group Project, hand gesture recognition app </h3>
+            <h2 className='h2'>Group Project, hand gesture recognition app </h2>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-3'>
@@ -85,7 +89,7 @@ function App() {
             </div>
 
 
-            <h3 className='h3'>Group Project, AI chinese chess</h3>
+            <h2 className='h2'>Group Project, AI chinese chess</h2>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-3'>
@@ -110,7 +114,7 @@ function App() {
               </div>
             </div>
 
-            <h3 className='h3'>Group Project, Online canvas PixelWorld</h3>
+            <h2 className='h2'>Group Project, Online canvas PixelWorld</h2>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-3'>
