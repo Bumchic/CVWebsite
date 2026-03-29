@@ -5,5 +5,18 @@
 }
 #Greeting
 {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+}
+#header
+{
+  background-color: rgb(255, 255, 255);
+}
+.showpic
+{
+  width: auto;
+  height: 200px;
+}
+.popuptext
+{
+  pointer-events: none;
 }
