@@ -3,6 +3,10 @@ import 'react-bootstrap'
 import './App.css'
 import { useEffect, useState } from 'react'
 import { motion, easeIn, easeOut, AnimatePresence } from 'motion/react'
+import DevPic from '../Image/3DevHandRecogProject.jpg'
+import Chess from '../Image/ChineseChess.png'
+import CSign from '../Image/CSign.png'
+import pixelworld from '../Image/PixelWorld.png'
 
 
 
@@ -69,14 +73,14 @@ function App() {
                   <div className='container d-flex justify-content-start'>
                     <div className='row'>
                       <div className='col position-relative'>
-                        <motion.img layout src='./Image\3DevHandRecogProject.jpg' className='d-block showpic' onHoverStart={() => { settextvisible(true) }}
+                        <motion.img layout src={DevPic} className='d-block showpic' onHoverStart={() => { settextvisible(true) }}
                           onHoverEnd={() => { settextvisible(false) }}></motion.img>
                         <motion.div layout className='position-absolute bottom-0 bg-light popuptext' animate={textvisible ? { opacity: easeIn(1) } : { opacity: easeOut(0) }} >
                           <p>A picture of the team during development</p>
                         </motion.div>
                       </div>
                       <div className='col position-relative'>
-                        <motion.img layout src='./Image\CSign.png' className='d-block showpic' onHoverStart={() => { settextvisible1(true) }}
+                        <motion.img layout src={CSign} className='d-block showpic' onHoverStart={() => { settextvisible1(true) }}
                           onHoverEnd={() => { settextvisible1(false) }}></motion.img>
                         <motion.div layout className='position-absolute bottom-0 bg-light popuptext' animate={textvisible1 ? { opacity: easeIn(1) } : { opacity: easeOut(0) }} >
                           <p >This Hand Gesture Recognition app, It was made to assist with hand sign translation. It's aim is to assist people who have hearing impairment</p>
@@ -102,7 +106,7 @@ function App() {
                   <div className='container d-flex justify-content-start'>
                     <div className='row'>
                       <div className='col position-relative'>
-                        <motion.img layout src='./Image\ChineseChess.png' className='d-block showpic' onHoverStart={() => { settextvisible2(true) }}
+                        <motion.img layout src={Chess} className='d-block showpic' onHoverStart={() => { settextvisible2(true) }}
                           onHoverEnd={() => { settextvisible2(false) }}></motion.img>
                         <motion.div layout className='position-absolute bottom-0 bg-light popuptext' animate={textvisible2 ? { opacity: easeIn(1) } : { opacity: easeOut(0) }} >
                           <p>Chinese Chess app written in C#</p>
@@ -128,7 +132,7 @@ function App() {
                   <div className='container d-flex justify-content-start'>
                     <div className='row'>
                       <div className='col position-relative'>
-                        <motion.img layout src='./Image\PixelWorld.png' className='d-block showpic' onHoverStart={() => { settextvisible3(true) }}
+                        <motion.img layout src={pixelworld} className='d-block showpic' onHoverStart={() => { settextvisible3(true) }}
                           onHoverEnd={() => { settextvisible3(false) }}></motion.img>
                         <motion.div layout className='position-absolute bottom-0 bg-light popuptext' animate={textvisible3 ? { opacity: easeIn(1) } : { opacity: easeOut(0) }} >
                           <p>Chinese Chess app written in C#</p>
