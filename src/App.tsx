@@ -1,11 +1,9 @@
 
 import 'react-bootstrap'
 import './App.css'
-import { Carousel, Container } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
-import { motion, easeIn, easeOut, AnimatePresence, easeInOut, color } from 'motion/react'
-import { animate, delay } from 'motion'
-import { style } from 'motion/react-client'
+import { motion, easeIn, easeOut, AnimatePresence} from 'motion/react'
+
 
 
 function App() {
