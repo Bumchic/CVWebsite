@@ -41,7 +41,7 @@ function App() {
         <div className=' pb-4 no-gutters w-auto' style={{ backgroundColor: 'white' }}>
           <div id='body' className='container-fluid d-flex justify-content-center'>
             <div className='row'>
-              <h1 className='d-flex justify-content-center'>About me</h1>
+              <h1 className='d-flex justify-content-center border border-2 my-2'>About me</h1>
             </div>
 
           </div>
@@ -56,17 +56,19 @@ function App() {
 
 
           <div className='container d-flex flex-column'>
-            <h1 className='d-flex justify-content-center h1'>My experience</h1>
+            <h1 className='d-flex justify-content-center h1 my-2'><div className='border border-2'>My experience</div></h1>
+            <div className='my-2'>
             <h2 className='h2'>Group Project, hand gesture recognition app </h2>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-3'>
                   <ul className="list-group list-group-flush mb-2">
+                    <h5 className='justify-content-center d-flex'>Experience learned</h5>
                     <li className="list-group-item">- Research problem and come up with solution</li>
                     <li className="list-group-item">- Organize group meeting and schedule</li>
                     <li className="list-group-item">- Program and document final application</li>
                     <li className="list-group-item">- Coordinate work as team leader</li>
-                    <li className="list-group-item">- Make an app using EmguCV library written in </li>
+                    <li className="list-group-item">- Make an app using EmguCV library written in C#</li>
                   </ul>
                 </div>
                 <div className='col'>
@@ -91,13 +93,15 @@ function App() {
                 </div>
               </div>
             </div>
+            </div>
 
-
+            <div className='my-2'>
             <h2 className='h2'>Group Project, AI chinese chess</h2>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-3'>
                   <ul className="list-group list-group-flush mb-2">
+                    <h5 className='justify-content-center d-flex'>Experience learned</h5>
                     <li className="list-group-item">- Create a basic AI algorithm used for Chinese Chess</li>
                     <li className="list-group-item">- Working with a team</li>
                   </ul>
@@ -117,12 +121,15 @@ function App() {
                 </div>
               </div>
             </div>
+            </div>
 
+            <div className='my-2'>
             <h2 className='h2'>Group Project, Online canvas PixelWorld</h2>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-3'>
                   <ul className="list-group list-group-flush mb-2">
+                    <h5 className='justify-content-center d-flex'>Experience learned</h5>
                     <li className="list-group-item">- Create a website using ReactJS</li>
                     <li className="list-group-item">- Create a simple server</li>
                     <li className="list-group-item">- Graphic manipulation using PixieJS</li>
@@ -142,6 +149,7 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
